@@ -1,0 +1,24 @@
+# Reproducibility Package
+# A Systematic Study of Deep Learning Detectors for Container Surface Damage Detection
+#
+# This capsule reproduces all experiments reported in the manuscript.
+# Hardware: NVIDIA GPU with >= 6 GB VRAM (all experiments ran on an RTX 3060 Laptop).
+# Runtime: full benchmark ~2 days on a single GPU; a single seed ~1.5 h.
+
+name: container-benchmark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch==2.5.1
+      - torchvision==0.20.1
+      - ultralytics==8.4.135
+      - pycocotools
+      - pandas
+      - matplotlib
+      - PyMuPDF
+      - opencv-python
+      - pillow
+      - numpy
