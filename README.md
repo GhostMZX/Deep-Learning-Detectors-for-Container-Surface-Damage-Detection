@@ -2,9 +2,6 @@
 
 This capsule contains all code needed to reproduce the experiments in:
 
-> Z. Ma, B. Yang, and Y. Chen, "A Systematic Study of Deep Learning Detectors for
-> Container Surface Damage Detection," submitted to IEEE Access.
-
 ## Contents
 
 | Path | Description |
